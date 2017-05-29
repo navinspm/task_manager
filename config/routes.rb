@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  root to: 'visitors#index'
+  root 'tasks#index'
+  resources :tasks
 end
