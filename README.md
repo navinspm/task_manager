@@ -1,50 +1,17 @@
 Task Manager
 ================
+       Task Manager is a simple task management tool
+             The features are 
+                1. Create task
+                2. Edit task
+                3. Delete task
+                4. List out task
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+        This application uses rails 5.1.1 and ruby 2.4.1 (latest versions available) and hosted in heroku https://navintasker.herokuapp.com/tasks 
 
-This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
-provided by the [RailsApps Project](http://railsapps.github.io/).
+Usage
+---------
 
-Rails Composer is supported by developers who purchase our RailsApps tutorials.
+      You can create task by clicking New task button, after you created task you will be redirected to task show page where you can inspect or edit your task.
 
-Problems? Issues?
------------
-
-Need help? Ask on Stack Overflow with the tag 'railsapps.'
-
-Your application contains diagnostics in the README file. Please provide a copy of the README file when reporting any issues.
-
-If the application doesn't work as expected, please [report an issue](https://github.com/RailsApps/rails_apps_composer/issues)
-and include the diagnostics.
-
-Ruby on Rails
--------------
-
-This application requires:
-
-- Ruby 2.4.1
-- Rails 5.1.1
-
-Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
-
-Getting Started
----------------
-
-Documentation and Support
--------------------------
-
-Issues
--------------
-
-Similar Projects
-----------------
-
-Contributing
-------------
-
-Credits
--------
-
-License
--------
+      If there is no taks clik back button it will redirect to index page where you can see all task list
